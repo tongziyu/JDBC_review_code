@@ -32,6 +32,8 @@ public class JDBCTest {
         connection.close();
         statement.close();
         resultSet.close();
+        resultSet.close();
+
 
 
     }
