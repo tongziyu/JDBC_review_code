@@ -17,6 +17,10 @@ public class JDBCTest {
         Connection connection = DriverManager.getConnection(url, username, password);
         // 3.获得执行对象
         Statement statement = connection.createStatement();
+
+
+
+
         // 4.执行SQL
         String sql = "select * from t_user";
         ResultSet resultSet = statement.executeQuery(sql);
